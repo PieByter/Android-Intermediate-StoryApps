@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de cuentos</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="list_story">Lista de Historias</string>
+    <string name="description">Descripción</string>
+    <string name="register_account">Crear Cuenta</string>
+    <string name="register">Registrarse</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="add_your_username_here">Añadir Tu Nombre de Usuario Aquí</string>
+    <string name="add_new_story">Agregar Nueva Historia</string>
+    <string name="camera">Cámara</string>
+    <string name="gallery">Galería</string>
+    <string name="upload">Subir</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="detail_story_image">Imagen Detallada de la Historia</string>
+    <string name="description_default">Descripción de la Historia :</string>
+    <string name="login_image">Imagen de Inicio de Sesión</string>
+    <string name="add_your_email_here">Añadir Tu Correo Electrónico Aquí</string>
+    <string name="add_your_password_here">Añadir Tu Contraseña Aquí</string>
+    <string name="welcome_title">¡Bienvenido a StoryApps!</string>
+    <string name="welcome_support">¡Inicia Sesión para Continuar y Regístrate para Crear una Cuenta!</string>
+    <string name="localize">Localice</string>
+    <string name="password_warning">Las contraseñas deben tener al menos 8 caracteres</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AplikasiCerita</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="list_story">Daftar Cerita</string>
+    <string name="description">Deskripsi</string>
+    <string name="register_account">Buat Akun</string>
+    <string name="register">Daftar</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="add_your_username_here">Tambahkan Nama Pengguna Anda di Sini</string>
+    <string name="add_new_story">Tambah Cerita Baru</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="logout">Keluar</string>
+    <string name="detail_story_image">Detail Gambar Cerita</string>
+    <string name="description_default">Deskripsi Cerita : </string>
+    <string name="login_image">Gambar Login</string>
+    <string name="add_your_email_here">Tambahkan Email Anda di Sini</string>
+    <string name="add_your_password_here">Tambahkan Kata Sandi Anda di Sini</string>
+    <string name="welcome_title">Selamat Datang di AplikasiCerita !!!</string>
+    <string name="welcome_support">Silahkan Login untuk Melanjutkan dan Daftar untuk Membuat Akun!</string>
+    <string name="localize">Lokalisasi</string>
+    <string name="password_warning">Password harus memiliki setidaknya 8 karakter</string>
+</resources>
+

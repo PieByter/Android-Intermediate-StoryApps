@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApps</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="list_story">List Story</string>
+    <string name="description">Description</string>
+    <string name="register_account">Register Account</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="add_your_username_here">Add your username here</string>
+    <string name="add_new_story">Add New Story</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="logout">Logout</string>
+    <string name="detail_story_image">Detail Story Image</string>
+    <string name="description_default">Story Description :</string>
+    <string name="login_image">Login Image</string>
+    <string name="add_your_email_here">Add your email here</string>
+    <string name="add_your_password_here">Add your password here</string>
+    <string name="welcome_title">Welcome to StoryApps !!!</string>
+    <string name="welcome_support">Please Login to Continue and Register to Create Account!</string>
+    <string name="localize">Localize</string>
+    <string name="password_warning">Passwords must have at least 8 characters</string>
+</resources>

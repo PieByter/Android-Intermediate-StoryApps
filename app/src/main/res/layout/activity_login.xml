@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:contentDescription="@string/login_image"
+        android:src="@drawable/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingHorizontal="16dp"
+        android:text="@string/welcome_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/welcome_support"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_login" />
+
+    <TextView
+        android:id="@+id/welcome_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:maxLines="2"
+        android:paddingHorizontal="16dp"
+        android:text="@string/welcome_support"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/txt_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_welcome" />
+
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/email"
+        app:layout_constraintBottom_toTopOf="@id/ed_login_email"
+        app:layout_constraintStart_toStartOf="@id/ed_login_email"
+        tools:alpha="100" />
+
+    <com.example.storyapps.customview.EmailEditText
+        android:id="@+id/ed_login_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="24dp"
+        android:alpha="0"
+        android:hint="@string/add_your_email_here"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:alpha="100"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/password"
+        app:layout_constraintStart_toStartOf="@+id/ed_login_email"
+        app:layout_constraintTop_toBottomOf="@id/ed_login_email"
+        tools:alpha="100" />
+
+    <com.example.storyapps.customview.PasswordEditText
+        android:id="@+id/ed_login_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:hint="@string/add_your_password_here"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="@id/ed_login_email"
+        app:layout_constraintStart_toStartOf="@id/ed_login_email"
+        app:layout_constraintTop_toBottomOf="@id/txt_password"
+        tools:alpha="100"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0"
+        android:text="@string/action_sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_login_password"
+        app:layout_constraintVertical_bias="0.335"
+        tools:alpha="100" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="@id/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_login"
+        app:layout_constraintTop_toTopOf="@id/btn_login"
+        tools:alpha="100" />
+
+    <ProgressBar
+        android:id="@+id/loginLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
