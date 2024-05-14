@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Aplicaciones de historias</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="list_story">Lista de historias</string>
+    <string name="description">Descripción</string>
+    <string name="register_account">Registrar Cuenta</string>
+    <string name="register">Registro</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="add_your_username_here">Añade tu nombre de usuario aquí</string>
+    <string name="add_new_story">Agregar nueva historia</string>
+    <string name="camera">Cámara</string>
+    <string name="gallery">Galería</string>
+    <string name="upload">Subir</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="detail_story_image">Imagen detallada de la historia</string>
+    <string name="description_default">Descripción de la historia:</string>
+    <string name="login_image">Imagen de inicio de sesión</string>
+    <string name="register_image">Registrar Imagen</string>
+    <string name="add_your_email_here">Añade tu correo electrónico aquí</string>
+    <string name="add_your_password_here">Añade tu contraseña aquí</string>
+    <string name="welcome_title">Bienvenidos a StoryApps!!!</string>
+    <string name="welcome_support">¡Inicie sesión para continuar y regístrese para crear una cuenta!</string>
+    <string name="localize">Localizar</string>
+    <string name="password_warning">Las contraseñas deben tener al menos 8 caracteres.</string>
+    <string name="map">Mapa</string>
+    <string name="title_activity_maps">Mapas del mundo</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satélite</string>
+    <string name="terrain_type">Terreno</string>
+    <string name="hybrid_type">Híbrido</string>
+    <string name="register_image_link" tools:ignore="TypographyDashes">https://bit.ly/4acjI2F</string>
+    <string name="login_image_link" tools:ignore="TypographyDashes">https://bit.ly/3WB7sWt</string>
+    <string name="retry">Rever</string>
+    <string name="timeout">Se acabó el tiempo</string>
+    <string name="include_current_location">Incluir ubicación actual</string>
+    <string name="login_successful">Inicio de sesión correcto</string>
+    <string name="login_failed">Error de inicio de sesión</string>
+</resources>
